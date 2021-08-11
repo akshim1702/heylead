@@ -58,7 +58,7 @@ list-style: none;
 
 .hover:hover{
    border-bottom: 2px solid black;
-   border-bottom-width: ;
+   /* border-bottom-width: ; */
     color:black;
     /* text-underline-offset: 5px; */
     
@@ -107,10 +107,10 @@ list-style: none;
     bottom: 15px;
     
 }
-.section1-overlap{
+/* .section1-overlap{
     
 
-}
+} */
 
 
 .fb-1{
@@ -188,6 +188,9 @@ list-style: none;
     box-shadow: 0px 0px 6px 1px rgb(138, 132, 132);
     margin-right: 0px;
     margin: 40px 0px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
     
 }
 
@@ -225,6 +228,24 @@ list-style: none;
 }
 
 
+.card-info{
+    padding: 0px 40px;
+}
+
+
+.card-info img{
+    height:100px;
+    width:100px;
+    border-radius:25px;
+}
+
+.card-info-detail h4{
+    margin-top:20px;
+}
+.card-info-detail p{
+ margin-top: 20px;
+}
+
 
 /* section 3  */
 
@@ -243,7 +264,7 @@ list-style: none;
 }
 .for_slick_slider2 .items3{
     margin: 5px 30px;
-   border: 2px solid white;
+    border: 2px solid white;
     background-color: white;
     box-shadow: 0px 0px 6px 1px rgb(172, 164, 164);
     height: 80px;
@@ -251,6 +272,18 @@ list-style: none;
     align-items: center;
     justify-content: center;
     border-radius:15px;
+    display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding : 0px 40px;
+}
+
+.items3 img{
+    height:50px;
+    width:50px;
+}
+.items3 h2{
+    margin-left: 10px;
 }
 
 
@@ -268,6 +301,25 @@ list-style: none;
     margin-left: 50px;
 }
 
+
+
+.for_slick_slider2 .items4{
+    margin: 5px 30px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 6px 1px rgb(172, 164, 164);
+    height: 80px;
+    border-radius:15px;
+    display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding : 0px 40px;
+}
+
+.items4 img{
+    height:45px;
+    width:200px;
+}
 
 
 
@@ -411,9 +463,29 @@ list-style: none;
     background-color:white;
     border-radius:15px;
     box-shadow: 0px 0px 6px 1px rgb(138, 132, 132);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+}
+
+.blog{
+    padding: 0px 50px;
 }
 
 
+.blog-image img{
+    height:200px;
+    width:350px;
+    border-radius:25px;
+}
+
+.blog-content {
+    margin-top: 40px;
+}
+.blog-content p{
+    margin-top: 40px;
+}
 
 
 
