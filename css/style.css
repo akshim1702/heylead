@@ -280,6 +280,8 @@ list-style: none;
     /* border: 2px solid red; */
 
 }
+
+
 .section4>h1{
     margin-left: 172px;
     position: relative;
@@ -362,6 +364,11 @@ list-style: none;
 }
 
 
+.photo-1{
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+}
 
 /* section 5  */
 
